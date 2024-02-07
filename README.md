@@ -8,4 +8,4 @@ Subsequently, the second script, "detect registration number.ipynb" is executed.
 
 The YOLOv5s model utilized for detecting license plates on identified vehicles was custom trained on a dataset comprising 754 images. These images were specifically prepared to focus on a single class: license plate. The dataset preparation process was facilitated using RoboFlow.
 
-To utilize the Sort module, it must be downloaded from [this repository](https://github.com/abewley/sort).
+Note: To utilize the Sort module, it must be downloaded from [this repository](https://github.com/abewley/sort).
