@@ -6,6 +6,6 @@ The process begins with the execution of "detect number plate.ipynb" to detect v
 
 Subsequently, the second script, "detect registration number.ipynb" is executed. It processes the license plate images from the "Detected Plate Frames" folder to recognize the text on them. The recognized text is then verified and formatted to adhere to the specified registration number format (USA in my case), resulting in the extraction of the vehicle's registration number. Further steps are carried out, culminating in the generation of an Excel file containing the registration numbers of each vehicle.
 
-The YOLOv5s model utilized for detecting license plates on identified vehicles was custom trained on a dataset comprising 754 images. These images were specifically prepared to focus on a single class: license plate. The dataset preparation process was facilitated using RoboFlow.
+The YOLOv5s model utilized for detecting license plates on identified vehicles was trained on a custom dataset comprising 754 images. These images were specifically prepared to focus on a single class: license plate. The dataset preparation process was facilitated using RoboFlow.
 
 Note: To utilize the Sort module, it must be downloaded from [this repository](https://github.com/abewley/sort).
